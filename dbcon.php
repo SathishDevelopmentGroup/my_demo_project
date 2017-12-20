@@ -14,7 +14,7 @@ class Functions{
 		{
 		die("connection failed:".$connect_error);
 		}
-        // connect to db
+        // conn
         $sql = mysqli_query($conn, "SELECT * FROM milk_users");
         $arr =  array(); 
                 while($row = mysqli_fetch_array($sql))
